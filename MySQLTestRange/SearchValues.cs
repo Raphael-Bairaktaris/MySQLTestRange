@@ -27,30 +27,6 @@ namespace MySQLTestRange
             InitializeComponent();
         }
 
-        //This is the ID text box
-        private void ID_Text_box_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        //This is the first name text box
-        private void First_Name_text_box_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        //This is the last name text box
-        private void Last_Name_Text_box_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        //This is the age text box
-        private void Country_Text_box_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         //This is the search button
         private void Search_bt_Click(object sender, EventArgs e)
         {

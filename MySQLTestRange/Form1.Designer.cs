@@ -33,12 +33,12 @@
             Open_Connection_bt = new Button();
             SuspendLayout();
             // 
-            // label1
+            // CustomerNameLabel
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft Sans Serif", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(313, 94);
-            label1.Name = "label1";
+            label1.Name = "CustomerNameLabel";
             label1.Size = new Size(0, 31);
             label1.TabIndex = 0;
             label1.Click += label1_Click;

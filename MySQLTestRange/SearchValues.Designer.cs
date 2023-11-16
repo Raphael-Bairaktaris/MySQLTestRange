@@ -43,13 +43,12 @@
             label6 = new Label();
             SuspendLayout();
             // 
-            // IDTextBox
+            // IdTextBox
             // 
             IDTextBox.Location = new Point(161, 46);
-            IDTextBox.Name = "IDTextBox";
+            IDTextBox.Name = "IdTextBox";
             IDTextBox.Size = new Size(291, 23);
             IDTextBox.TabIndex = 0;
-            IDTextBox.TextChanged += ID_Text_box_TextChanged;
             // 
             // CustomerNameTextBox
             // 
@@ -57,7 +56,6 @@
             CustomerNameTextBox.Name = "CustomerNameTextBox";
             CustomerNameTextBox.Size = new Size(291, 23);
             CustomerNameTextBox.TabIndex = 1;
-            CustomerNameTextBox.TextChanged += First_Name_text_box_TextChanged;
             // 
             // AddressTextBox
             // 
@@ -65,7 +63,6 @@
             AddressTextBox.Name = "AddressTextBox";
             AddressTextBox.Size = new Size(291, 23);
             AddressTextBox.TabIndex = 2;
-            AddressTextBox.TextChanged += Last_Name_Text_box_TextChanged;
             // 
             // CityTextBox
             // 
@@ -85,38 +82,38 @@
             Search_bt.UseVisualStyleBackColor = false;
             Search_bt.Click += Search_bt_Click;
             // 
-            // label1
+            // CustomerNameLabel
             // 
             label1.AutoSize = true;
             label1.Location = new Point(61, 54);
-            label1.Name = "label1";
+            label1.Name = "CustomerNameLabel";
             label1.Size = new Size(18, 15);
             label1.TabIndex = 5;
             label1.Text = "ID";
             // 
-            // label2
+            // AddressLabel
             // 
             label2.AutoSize = true;
             label2.Location = new Point(61, 112);
-            label2.Name = "label2";
+            label2.Name = "AddressLabel";
             label2.Size = new Size(94, 15);
             label2.TabIndex = 6;
             label2.Text = "Customer Name";
             // 
-            // label3
+            // CityLabel
             // 
             label3.AutoSize = true;
             label3.Location = new Point(61, 173);
-            label3.Name = "label3";
+            label3.Name = "CityLabel";
             label3.Size = new Size(49, 15);
             label3.TabIndex = 7;
             label3.Text = "Address";
             // 
-            // label4
+            // PostalCodeLabel
             // 
             label4.AutoSize = true;
             label4.Location = new Point(61, 235);
-            label4.Name = "label4";
+            label4.Name = "PostalCodeLabel";
             label4.Size = new Size(28, 15);
             label4.TabIndex = 8;
             label4.Text = "City";
@@ -135,20 +132,20 @@
             PostalCodeTextBox.Size = new Size(291, 23);
             PostalCodeTextBox.TabIndex = 10;
             // 
-            // label5
+            // CountryLabel
             // 
             label5.AutoSize = true;
             label5.Location = new Point(61, 299);
-            label5.Name = "label5";
+            label5.Name = "CountryLabel";
             label5.Size = new Size(50, 15);
             label5.TabIndex = 11;
             label5.Text = "Country";
             // 
-            // label6
+            // CustomerId
             // 
             label6.AutoSize = true;
             label6.Location = new Point(61, 349);
-            label6.Name = "label6";
+            label6.Name = "CustomerId";
             label6.Size = new Size(70, 15);
             label6.TabIndex = 12;
             label6.Text = "Postal Code";
